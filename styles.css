@@ -1,0 +1,76 @@
+container {
+  margin: 0 auto;
+}
+.logo {
+  text-align: center;
+}
+.logo img {
+  width: 500px;
+  height: 500px;
+}
+
+body {
+  background: black;
+}
+nav li {
+  display: inline-block;
+  align-items: center;
+}
+
+.about {
+  text-align: center;
+  background: #005183;
+  font-size: 2em;
+}
+
+.about img {
+  width: 300px;
+  height: 300px;
+}
+.food1 {
+  display: flex;
+  justify-content: space-around;
+}
+.food2 {
+  background: #005183;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.service {
+  text-align: center;
+  background: black;
+  color: white;
+  font-size: 2em;
+}
+
+.dogs {
+  background: #005183;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+}
+.dog-section {
+  color: white;
+  text-align: center;
+  background: #005183;
+  font-size: 2em;
+}
+
+.dogs img {
+  width: 300px;
+  height: 300px;
+}
+
+.contact {
+  display: block;
+  text-align: center;
+  background: black;
+  color: white;
+  font-size: 2em;
+}
+.contact a {
+  color: white;
+  font-size: 1em;
+}
