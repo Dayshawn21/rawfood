@@ -1,0 +1,85 @@
+container {
+  margin: 0 auto;
+  padding: 0;
+}
+* {
+  font-family: "Abel", sans-serif;
+}
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  width: 30em;
+  height: 30em;
+}
+
+body {
+  background: black;
+}
+nav li {
+  display: inline-block;
+  align-items: center;
+}
+
+.about {
+  text-align: center;
+  background: #005183;
+  font-size: 2em;
+}
+
+.about img {
+  width: 10em;
+  height: 10em;
+}
+.food1 {
+  display: flex;
+  justify-content: space-around;
+}
+.food2 {
+  background: #005183;
+  padding-top: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+.service {
+  text-align: center;
+  background: black;
+  color: white;
+  font-size: 2em;
+}
+
+.dogs {
+  background: #005183;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+}
+.dog-section {
+  color: white;
+  text-align: center;
+  background: #005183;
+  font-size: 2em;
+}
+
+.dogs img {
+  width: 90%;
+  height: 90%;
+}
+
+.contact {
+  display: block;
+  text-align: center;
+  background: black;
+  color: white;
+  font-size: 2em;
+}
+.contact a {
+  color: white;
+  font-size: 1em;
+}
+
+.video {
+  text-align: center;
+}
