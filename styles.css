@@ -17,10 +17,6 @@ container {
 body {
   background: black;
 }
-nav li {
-  display: inline-block;
-  align-items: center;
-}
 
 .about {
   text-align: center;
